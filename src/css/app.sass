@@ -1,0 +1,121 @@
+*
+  margin: 0
+  padding: 0
+
+body
+  display: flex
+  flex-direction: column
+  height: 100vh
+  background-color: $dark
+
+  color: #fff
+  box-sizing: border-box
+  font-family: 'Roboto', 'sans-serif'
+
+main
+
+section
+  padding: 80px 0
+
+.obrigado-header
+  top: 0
+  z-index: 2
+  background-color: $dark
+
+header
+  left: 0
+  top: 40px
+  width: 100%
+  position: fixed
+  text-transform: uppercase
+  box-shadow: 1px 4px 16px 3px #000
+
+  display: flex
+  padding: 20px
+  align-items: center
+  justify-content: space-between
+
+
+  .title
+    font-size: 2.2em
+    font-weight: 700
+    line-height: 50px
+    letter-spacing: 2px
+    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1)
+
+  .logo
+    width: 60px
+
+article
+  padding: 110px 20px 50px 30px
+
+  ul
+    font-weight: 300
+    font-size: 1.2em
+
+    li
+      margin-bottom: 20px
+
+footer
+  bottom: 0
+  width: 100%
+  position: fixed
+  background-color: $dark
+  padding: 0 10px 20px 10px
+
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+
+  font-weight: 400
+  font-size: 0.6em
+
+  .page-counter
+    span
+      letter-spacing: 1.5px
+
+  .page-control
+    display: flex
+    align-items: center
+    flex-direction: column
+
+    span
+      letter-spacing: 2px
+      text-transform: lowercase
+
+
+.yellow
+  background-color: $yellow
+
+.green
+  background-color: $green
+
+.blue
+  background-color: $blue
+
+.bold
+  font-weight: 700
+
+.top-info
+  top: 0
+  left: 0
+  right: 0
+  position: fixed
+  padding: 0 10px 0 10px
+  background-color: $dark
+  width: 100%
+  z-index: 1
+
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  font-weight: 300
+  text-transform: lowercase
+
+  .top-icons
+    padding: 5px 0
+
+// Quasar overwriten styles
+.q-item
+  padding: 0
