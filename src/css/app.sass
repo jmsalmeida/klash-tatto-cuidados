@@ -12,66 +12,65 @@ body
   box-sizing: border-box
   font-family: 'Roboto', 'sans-serif'
 
-main
-
 section
-  padding: 80px 0
-
-.obrigado-header
-  top: 0
-  z-index: 2
-  background-color: $dark
+  padding: 100px 0
 
 header
   left: 0
-  top: 40px
+  top: 45px
   width: 100%
+  min-height: 120px
   position: fixed
-  text-transform: uppercase
-  box-shadow: 1px 4px 16px 3px #000
 
   display: flex
-  padding: 20px
+  padding: 5px 20px
   align-items: center
   justify-content: space-between
 
-
   .title
-    font-size: 2.2em
-    font-weight: 700
-    line-height: 50px
-    letter-spacing: 2px
-    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1)
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 47px;
+
+    color: rgba(0, 0, 0, 0.90);
 
   .logo
-    width: 60px
+    width: 100px
 
 article
-  padding: 110px 20px 50px 30px
+  padding: 100px 30px 50px 30px
 
   ul
     font-weight: 300
     font-size: 1.2em
 
     li
-      margin-bottom: 20px
+      margin-bottom: 30px
 
 footer
   bottom: 0
   width: 100%
   position: fixed
   background-color: $dark
-  padding: 0 10px 20px 10px
+  padding: 10px
 
   display: flex
   align-items: flex-end
   justify-content: space-between
 
-  font-weight: 400
-  font-size: 0.6em
+  font-weight: 500
+  font-size: 0.8em
+
+  a
+    height: 50px
 
   .page-counter
+    display: flex
+    align-items: center
+    flex-direction: column
+
     span
+      padding-top: 10px
       letter-spacing: 1.5px
 
   .page-control
@@ -80,9 +79,12 @@ footer
     flex-direction: column
 
     span
+      padding-top: 10px
       letter-spacing: 2px
       text-transform: lowercase
 
+.hidden
+  display: none
 
 .yellow
   background-color: $yellow
@@ -96,12 +98,90 @@ footer
 .bold
   font-weight: 700
 
+.divisor
+  width: 100%
+  height: 0px
+  margin: 40px 0
+  display: flex
+  border: 1px solid #FFFFFF
+
+.obrigado-page
+  padding: 0 20px
+
+  .obrigado-header
+    box-shadow: none
+    position: static
+
+  .obrigado-logo
+    width: 100px
+
+  .obrigado-content
+    display: flex
+    flex-direction: column
+    text-align: center
+    font-style: normal
+
+    h2
+      padding: 0
+      font-weight: 500
+      font-size: 2em
+      line-height: 42px
+      text-align: center
+      margin: 30px 0 0 0
+      letter-spacing: 0.0357143em
+      text-transform: uppercase
+
+    p
+      margin: 20px 0
+      font-weight: 300;
+      font-size: 1.2em;
+      line-height: 25px;
+      text-align: center;
+      text-indent: 2px;
+
+    small
+      font-size: 1em
+
+
+  .action
+    margin: 20px 0 50px 0
+
+    a
+      text-decoration: none
+
+  .obrigado-footer
+    position: relative
+    font-weight: 300
+    font-size: 0.8em
+    padding: 20px 0 20px 0
+    letter-spacing: 1.5px
+
+    p
+      margin: 0
+
+    .redes-sociais
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      width: 100%
+
+      img
+        width: 40px
+        margin: 20px 10px
+
+    .footer-info
+      width: 100%
+      text-align: center
+
+  .obrigado-inicio
+    margin: 50px 0
+    text-decoration: underline
+
 .top-info
-  top: 0
   left: 0
-  right: 0
   position: fixed
-  padding: 0 10px 0 10px
+  padding: 0 20px
   background-color: $dark
   width: 100%
   z-index: 1
@@ -110,11 +190,24 @@ footer
   align-items: center
   justify-content: space-between
 
+  font-size: 0.8em
   font-weight: 300
-  text-transform: lowercase
+  text-transform: uppercase
 
   .top-icons
-    padding: 5px 0
+    padding: 10px 0
+
+    img
+      width: 20px
+      margin-left: 15px
+
+// Media queries
+@media screen and (min-height: 650px)
+  .obrigado-page
+    .obrigado-footer
+      left: 0
+      bottom: 0
+      position: absolute
 
 // Quasar overwriten styles
 .q-item

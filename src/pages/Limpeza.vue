@@ -2,7 +2,7 @@
   <section>
     <header class="yellow">
       <h1 class="title">Limpeza</h1>
-      <img class="logo" src="~/assets/logo.png">
+      <img class="logo" src="~/assets/logo-preto.png">
     </header>
 
     <article>
@@ -25,7 +25,7 @@
       clickable
       v-ripple>
         <div class="page-control">
-          <q-icon name="arrow_right_alt" size=30px />
+          <q-icon name="east" size=20px />
           <span>Próximo</span>
         </div>
       </q-item>

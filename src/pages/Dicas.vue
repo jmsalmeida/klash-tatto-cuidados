@@ -2,7 +2,7 @@
   <section>
     <header class="blue">
       <h1 class="title">Dicas</h1>
-      <img class="logo" src="~/assets/logo.png">
+      <img class="logo" src="~/assets/logo-preto.png">
     </header>
 
     <article>
@@ -15,9 +15,16 @@
     </article>
 
     <footer>
-      <div class="page-counter">
-        <span>3 de 4</span>
-      </div>
+      <q-item
+      to="/nao-mexer"
+      exact
+      clickable
+      v-ripple>
+        <div class="page-counter">
+          <q-icon name="west" size=20px />
+          <span>3 de 4</span>
+        </div>
+      </q-item>
 
       <q-item
       to="/obrigado"
@@ -25,7 +32,7 @@
       clickable
       v-ripple>
         <div class="page-control">
-          <q-icon name="arrow_right_alt" size=30px />
+          <q-icon name="east" size=20px />
           <span>Próximo</span>
         </div>
       </q-item>

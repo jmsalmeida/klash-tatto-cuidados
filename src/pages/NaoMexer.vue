@@ -2,7 +2,7 @@
   <section>
     <header class="green">
       <h1 class="title">Não Mexer</h1>
-      <img class="logo" src="~/assets/logo.png">
+      <img class="logo" src="~/assets/logo-preto.png">
     </header>
 
     <article>
@@ -16,9 +16,16 @@
     </article>
 
     <footer>
-      <div class="page-counter">
-        <span>2 de 4</span>
-      </div>
+      <q-item
+      to="/"
+      exact
+      clickable
+      v-ripple>
+        <div class="page-counter">
+          <q-icon name="west" size=20px />
+          <span>2 de 4</span>
+        </div>
+      </q-item>
 
       <q-item
       to="/dicas"
@@ -26,7 +33,7 @@
       clickable
       v-ripple>
         <div class="page-control">
-          <q-icon name="arrow_right_alt" size=30px />
+          <q-icon name="east" size=20px />
           <span>Próximo</span>
         </div>
       </q-item>

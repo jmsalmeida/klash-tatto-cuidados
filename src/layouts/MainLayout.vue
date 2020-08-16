@@ -1,10 +1,10 @@
 <template>
   <main>
-    <div class="top-info">
+    <div v-bind:class="{ 'hidden': $route.path == '/obrigado' }" class="top-info">
       <span>Cuidados com seu piercing</span>
       <div class="top-icons">
-        <q-icon name="facebook" size=30px />
-        <q-icon name="instagram" size=30px />
+        <a href="https://www.instagram.com/klashtattoosuzano/"><img src="~/assets/instagram.png"></a>
+        <a href="https://www.facebook.com/KlashTattooePiercing/"><img src="~/assets/facebook.png"></a>
       </div>
     </div>
     <q-layout>
