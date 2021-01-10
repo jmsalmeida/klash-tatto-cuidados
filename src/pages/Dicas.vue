@@ -1,17 +1,38 @@
 <template>
   <section>
-    <header class="blue">
+    <header>
       <h1 class="title">Dicas</h1>
       <img class="logo" src="~/assets/logo-preto.png">
     </header>
 
-    <article>
-      <ul>
-        <li>Mantenha o profissional informado sobre a cicatrização e tire qualquer duvida que tiver com ele</li>
-        <li>Evite durante o tempo de cicatrização amassar, apertar ou dormir em cima do seu piercing</li>
-        <li>Cuidado com produtos muito próximo a perfuração para não dar irritação ou alergia</li>
-      </ul>
-    </article>
+    <section class="container">
+      <article class="care-content">
+        <div class="care-image spacer">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Mantenha o profissional informado sobre a cicatrização e tire qualquer duvida que tiver com ele</p>
+        </div>
+      </article>
+
+      <article class="care-content row-reverse">
+        <div class="care-image">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Evite durante o tempo de cicatrização amassar, apertar ou dormir em cima do seu piercing</p>
+        </div>
+      </article>
+
+      <article class="care-content">
+        <div class="care-image spacer">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Cuidado com produtos muito próximo a perfuração para não dar irritação ou alergia</p>
+        </div>
+      </article>
+    </section>
 
     <footer>
       <q-item

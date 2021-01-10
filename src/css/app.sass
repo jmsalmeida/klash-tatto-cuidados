@@ -3,55 +3,33 @@
   padding: 0
 
 body
-  display: flex
-  flex-direction: column
-  height: 100vh
-  background-color: $dark
-
-  color: #fff
   box-sizing: border-box
-  font-family: 'Roboto', 'sans-serif'
-
-section
-  padding: 100px 0
+  font-family: Anonymous Pro;
 
 header
-  left: 0
-  top: 45px
-  width: 100%
-  min-height: 120px
-  position: fixed
-
   display: flex
-  padding: 5px 20px
   align-items: center
   justify-content: space-between
+  color: #fff
+  padding: 10px 0
 
   .title
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height */
 
-    color: rgba(0, 0, 0, 0.90);
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    padding-left: 10px
 
-  .logo
-    width: 100px
-
-article
-  padding: 100px 30px 50px 30px
-
-  ul
-    font-weight: 300
-    font-size: 1.2em
-
-    li
-      margin-bottom: 30px
+  img
+    width: 50px
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 footer
-  bottom: 0
   width: 100%
-  position: fixed
-  background-color: $dark
   padding: 10px
 
   display: flex
@@ -83,17 +61,20 @@ footer
       letter-spacing: 2px
       text-transform: lowercase
 
-.hidden
-  display: none
+// Classes
+.inicio-page
+  width: 100vw
+  background-color: $dark
 
-.yellow
-  background-color: $yellow
+  .content
+    height: calc(100vh - 27px);
+    display: flex;
+    align-items: center;
+    flex-direction: column
+    justify-content: center
 
-.green
-  background-color: $green
-
-.blue
-  background-color: $blue
+  .logo
+    width: 300px
 
 .bold
   font-weight: 700
@@ -105,8 +86,50 @@ footer
   display: flex
   border: 1px solid #FFFFFF
 
+.row-reverse
+  flex-direction: row-reverse
+
+// Components Classes
+.container
+  height: 100vh
+  max-width: 1280px
+  padding: 10px 4%
+
+.spacer
+  margin-right: 10px
+
+.care-content
+  display: flex
+  align-items: center
+  padding: 30px 0
+
+  .care-image
+    img
+      max-width: 100px
+      max-height: 100px
+      border-radius: 50%
+
+  .care-information
+    margin: 0 5px
+    p
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 140%;
+
+// Obrigado page classes
+.inicio-header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  color: #fff
+
+  img
+    width: 20px
+
 .obrigado-page
-  padding: 0 20px
+  color: #fff
+  background-color: $dark
 
   .obrigado-header
     box-shadow: none
@@ -177,29 +200,6 @@ footer
   .obrigado-inicio
     margin: 50px 0
     text-decoration: underline
-
-.top-info
-  left: 0
-  position: fixed
-  padding: 0 20px
-  background-color: $dark
-  width: 100%
-  z-index: 1
-
-  display: flex
-  align-items: center
-  justify-content: space-between
-
-  font-size: 0.8em
-  font-weight: 300
-  text-transform: uppercase
-
-  .top-icons
-    padding: 10px 0
-
-    img
-      width: 20px
-      margin-left: 15px
 
 // Media queries
 @media screen and (min-height: 650px)

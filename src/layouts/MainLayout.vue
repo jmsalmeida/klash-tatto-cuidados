@@ -1,11 +1,5 @@
 <template>
   <main>
-    <div v-bind:class="{ 'hidden': $route.path == '/obrigado' }" class="top-info">
-      <span>Cuidados com seu piercing</span>
-      <div class="top-icons">
-        <a href="https://www.instagram.com/klashtattoosuzano/"><img src="~/assets/instagram.png"></a>
-      </div>
-    </div>
     <q-layout>
       <q-page-container>
         <keep-alive>

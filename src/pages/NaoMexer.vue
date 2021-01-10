@@ -1,19 +1,56 @@
 <template>
   <section>
-    <header class="green">
+    <header>
       <h1 class="title">Não Mexer</h1>
       <img class="logo" src="~/assets/logo-preto.png">
     </header>
 
-    <article>
-      <ul>
-        <li>Não colocar a mão no piercing</li>
-        <li>Não é necessário movimentar, rodar, tirar ou mexer na sua jóia</li>
-        <li>Cuidado com batidas, puxões e atritos que possam machucar</li>
-        <li>Não arranque a casca do machucado</li>
-        <li>Não troque a jóia antes do tempo determinado pelo profissional</li>
-      </ul>
-    </article>
+    <section class="container">
+      <article class="care-content">
+        <div class="care-image spacer">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Não colocar a mão no piercing</p>
+        </div>
+      </article>
+
+      <article class="care-content row-reverse">
+        <div class="care-image">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Não é necessário movimentar, rodar, tirar ou mexer na sua jóia</p>
+        </div>
+      </article>
+
+      <article class="care-content">
+        <div class="care-image spacer">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Cuidado com batidas, puxões e atritos que possam machucar</p>
+        </div>
+      </article>
+
+      <article class="care-content row-reverse">
+        <div class="care-image">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Não arranque a casca do machucado</p>
+        </div>
+      </article>
+
+      <article class="care-content">
+        <div class="care-image spacer">
+          <img src="~/assets/piercings-step-1.png">
+        </div>
+        <div class="care-information">
+          <p>Não troque a jóia antes do tempo determinado pelo profissional</p>
+        </div>
+      </article>
+    </section>
 
     <footer>
       <q-item

@@ -1,5 +1,5 @@
 <template>
-  <section class="obrigado-page">
+  <section class="obrigado-page container">
     <header class="flex flex-center obrigado-header">
       <img class="obrigado-logo" src="~/assets/logo.png">
     </header>
