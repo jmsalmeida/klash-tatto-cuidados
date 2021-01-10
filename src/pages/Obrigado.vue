@@ -39,7 +39,6 @@
         <p class="footer-info">Agendamentos somente via <span class="bold">instagram</span></p>
         <div class="icones">
           <a href="https://www.instagram.com/klashtattoosuzano/"><img src="~/assets/instagram.png"></a>
-          <a href="https://www.facebook.com/KlashTattooePiercing/"><img src="~/assets/facebook.png"></a>
         </div>
         <p>Acesse nossas redes sociais</p>
       </div>

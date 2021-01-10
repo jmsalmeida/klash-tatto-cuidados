@@ -7,11 +7,11 @@
 
     <article>
       <ul>
-        <li>Não colocar a mão no piercing <span class="bold">(Exceto pra realizar a limpeza)</span></li>
-        <li>Não é necessário <span class="bold">movimentar</span>, <span class="bold">rodar</span>, <span class="bold">tirar</span> ou <span class="bold">mexer</span> em sua jóia</li>
-        <li>Cuidado com <span class="bold">batidas</span>, <span class="bold">puxões</span> e <span class="bold">atritos</span></li>
-        <li><span class="bold">Não arranque</span> as cascas do local perfurado</li>
-        <li><span class="bold">Não troque</span> a joia antes do tempo determinado pelo profissional</li>
+        <li>Não colocar a mão no piercing</li>
+        <li>Não é necessário movimentar, rodar, tirar ou mexer na sua jóia</li>
+        <li>Cuidado com batidas, puxões e atritos que possam machucar</li>
+        <li>Não arranque a casca do machucado</li>
+        <li>Não troque a jóia antes do tempo determinado pelo profissional</li>
       </ul>
     </article>
 

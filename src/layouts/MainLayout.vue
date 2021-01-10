@@ -4,7 +4,6 @@
       <span>Cuidados com seu piercing</span>
       <div class="top-icons">
         <a href="https://www.instagram.com/klashtattoosuzano/"><img src="~/assets/instagram.png"></a>
-        <a href="https://www.facebook.com/KlashTattooePiercing/"><img src="~/assets/facebook.png"></a>
       </div>
     </div>
     <q-layout>

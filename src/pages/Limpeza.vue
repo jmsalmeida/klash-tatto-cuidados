@@ -7,10 +7,10 @@
 
     <article>
       <ul>
-        <li>Usar somente soro fisiológico <span class="bold">(Não usar outros produtos)</span></li>
-        <li>Limpe e seque o local com cotonete <span class="bold">(2 à 3 vezes por dia)</span></li>
-        <li>Mantenha a higiene pessoal</li>
-        <li>Limpe tudo o que vai estar em contato com o piercing <span class="bold">(roupas, travesseiros, capacete, etc)</span></li>
+        <li>Usar somente soro fisiológico</li>
+        <li>Duas a três vezes por dia é suficiente</li>
+        <li>Não usar nenhum outro produto</li>
+        <li>Mantenha a higiente pessoal e limpe tudo que vai estar em contato com seu piercing (roupas, travesseiros, capacete, etc)</li>
       </ul>
     </article>
 

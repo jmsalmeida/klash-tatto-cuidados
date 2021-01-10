@@ -7,10 +7,9 @@
 
     <article>
       <ul>
-        <li>Nos informe qualquer dificuldade com a <span class="bold">cicatrização</span></li>
-        <li>Tire qualquer <span class="bold">dúvida</span> com nossa equipe</li>
-        <li>Evite durante o tempo de cicatrização <span class="bold">amassar</span>, <span class="bold">apertar</span> ou <span class="bold">dormir</span> em cima do seu piercing</li>
-        <li>Cuidado com produtos próximos a perfuração para evitar, <span class="bold">irritação</span> ou <span class="bold">alergia</span></li>
+        <li>Mantenha o profissional informado sobre a cicatrização e tire qualquer duvida que tiver com ele</li>
+        <li>Evite durante o tempo de cicatrização amassar, apertar ou dormir em cima do seu piercing</li>
+        <li>Cuidado com produtos muito próximo a perfuração para não dar irritação ou alergia</li>
       </ul>
     </article>
 
