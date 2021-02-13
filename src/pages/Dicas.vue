@@ -1,40 +1,24 @@
 <template>
-  <section>
-    <header>
-      <h1 class="title">Dicas</h1>
-      <img class="logo" src="~/assets/logo-preto.png">
+  <div class="page">
+    <div class="bg-image zeca-bg"></div>
+
+    <header class="page-header">
+      <h2 class="title-header">Dicas</h2>
+      <img class="klash-logo-header" src="~/assets/logo.png">
     </header>
 
-    <section class="container">
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Mantenha o profissional informado sobre a cicatrização e tire qualquer duvida que tiver com ele</p>
-        </div>
-      </article>
+    <section class="main-content">
+        <div class="content">
+          <p class="description">Mantenha o profissional informado sobre a cicatrização e tire qualquer duvida que tiver com ele</p>
 
-      <article class="care-content row-reverse">
-        <div class="care-image">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Evite durante o tempo de cicatrização amassar, apertar ou dormir em cima do seu piercing</p>
-        </div>
-      </article>
+          <p class="description">Evite durante o tempo de cicatrização amassar, apertar ou dormir em cima do seu piercing</p>
 
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
+          <p class="description">Cuidado com produtos muito próximo a perfuração para não dar irritação ou alergia</p>
         </div>
-        <div class="care-information">
-          <p>Cuidado com produtos muito próximo a perfuração para não dar irritação ou alergia</p>
-        </div>
-      </article>
+
     </section>
 
-    <footer>
+    <footer class="page-footer">
       <q-item
       to="/nao-mexer"
       exact
@@ -57,7 +41,7 @@
         </div>
       </q-item>
     </footer>
-  </section>
+  </div>
 </template>
 
 <script>

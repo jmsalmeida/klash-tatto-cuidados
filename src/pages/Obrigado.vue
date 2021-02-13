@@ -1,46 +1,88 @@
 <template>
-  <section class="obrigado-page container">
-    <header class="flex flex-center obrigado-header">
-      <img class="obrigado-logo" src="~/assets/logo.png">
+  <section id="thanks" class="page">
+    <header class="tks-header">
+      <img src="~/assets/logo.png">
     </header>
 
-    <div class="obrigado-content flex flex-center">
-      <h2>
-        Agradecemos a sua visita
-      </h2>
-
-      <span class="divisor"></span>
+    <div class="tks-content">
+      <h2>Agradecemos a sua visita</h2>
 
       <p>Para melhorar o processo de cicatrização do seu novo piercing é muito importante seguir as instruções de cuidado.</p>
 
-      <div class="action">
+      <small>Pedimos que <span class="bold">retorne entre 10 e 15 dias</span> para o acompanhamento</small>
+
+      <span class="divisor"></span>
+
+      <div class="piercers">
+        <h2>Conheça nossa equipe de body piercers</h2>
+
+        <div class="content-piercer">
+          <div class="img-piercer felipe"></div>
+
+          <div>
+            <a class="instagram-link" href="https://www.instagram.com/felipeklashpiercer/" target=_blank>
+              <img src="~/assets/icons/instagram.png">
+              <span>Felipe Campos</span>
+            </a>
+            <p>15 anos de experiência como bodypiercer</p>
+          </div>
+        </div>
+
+        <div class="content-piercer">
+          <div class="img-piercer thaiane"></div>
+
+          <div>
+            <a class="instagram-link" href="https://www.instagram.com/thatapiercer/" target=_blank>
+              <img src="~/assets/icons/instagram.png">
+              <span>Thaiane Campos</span>
+            </a>
+          </div>
+          <p>15 anos de experiência como bodypiercer</p>
+        </div>
+
+        <div class="content-piercer">
+          <div class="img-piercer zeca"></div>
+
+          <div>
+            <a class="instagram-link" href="https://www.instagram.com/thatapiercer/" target=_blank>
+              <img src="~/assets/icons/instagram.png">
+              <span>Zeca Campos</span>
+            </a>
+            <p>20 anos de experiência como bodypiercer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <q-item
+        to="/"
+        exact
+        clickable
+        v-ripple>
+          <div class="label">
+            <img src="~/assets/icons/keyboard_backspace-white-18dp.svg" />
+
+            <span>Voltar ao inicio</span>
+          </div>
+        </q-item>
+
         <a href="https://drive.google.com/file/d/1o0-EgjvUWEm0ehvLF1qERcpChNnfnVx5/view?usp=sharing" download="proposed_file_name.pdf">
-          <q-btn
-          color="white"
-          icon="cloud_download"
-          text-color="black"
-          label="Baixar instruções" />
+          <div class="label">
+            <img src="~/assets/icons/cloud_download-white-18dp.svg" />
+
+            <span>Baixar instruções</span>
+          </div>
         </a>
       </div>
 
-      <small>Pedimos que <span class="bold">retorne entre 10 e 15 dias</span> para o acompanhamento</small>
-
-      <q-item
-      to="/"
-      exact
-      clickable
-      v-ripple>
-        <span class="obrigado-inicio">voltar ao inicio</span>
-      </q-item>
+      <span class="divisor"></span>
     </div>
 
-    <footer class="obrigado-footer flex flex-center">
-      <div class="redes-sociais">
-        <p class="footer-info">Agendamentos somente via <span class="bold">instagram</span></p>
-        <div class="icones">
-          <a href="https://www.instagram.com/klashtattoosuzano/"><img src="~/assets/instagram.png"></a>
-        </div>
-        <p>Acesse nossas redes sociais</p>
+    <footer class="tks-footer">
+      <p class="footer-info">Agende seu próximo piercing em nosso <span class="bold">instagram</span></p>
+
+      <div class="icons">
+        <a href="https://www.instagram.com/klashtattoosuzano/" target=_blank><img src="~/assets/icons/instagram-write.png"></a>
       </div>
     </footer>
   </section>

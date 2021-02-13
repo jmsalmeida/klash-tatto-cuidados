@@ -1,58 +1,28 @@
 <template>
-  <section>
-    <header>
-      <h1 class="title">Não Mexer</h1>
-      <img class="logo" src="~/assets/logo-preto.png">
+  <div class="page">
+    <div class="bg-image thaiane-bg"></div>
+
+    <header class="page-header">
+      <h2 class="title-header">Não Mexer</h2>
+      <img class="klash-logo-header" src="~/assets/logo.png">
     </header>
 
-    <section class="container">
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Não colocar a mão no piercing</p>
-        </div>
-      </article>
+    <section class="main-content">
+        <div class="content">
+          <p class="description">Não colocar a mão no piercing</p>
 
-      <article class="care-content row-reverse">
-        <div class="care-image">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Não é necessário movimentar, rodar, tirar ou mexer na sua jóia</p>
-        </div>
-      </article>
+          <p class="description">Não é necessário movimentar, rodar, tirar ou mexer na sua jóia</p>
 
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Cuidado com batidas, puxões e atritos que possam machucar</p>
-        </div>
-      </article>
+          <p class="description">Cuidado com batidas, puxões e atritos que possam machucar</p>
 
-      <article class="care-content row-reverse">
-        <div class="care-image">
-          <img src="~/assets/piercings-step-1.png">
-        </div>
-        <div class="care-information">
-          <p>Não arranque a casca do machucado</p>
-        </div>
-      </article>
+          <p class="description">Não arranque a casca do machucado</p>
 
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
+          <p class="description">Não troque a jóia antes do tempo determinado pelo profissional</p>
         </div>
-        <div class="care-information">
-          <p>Não troque a jóia antes do tempo determinado pelo profissional</p>
-        </div>
-      </article>
+
     </section>
 
-    <footer>
+    <footer class="page-footer">
       <q-item
       to="/"
       exact
@@ -75,7 +45,7 @@
         </div>
       </q-item>
     </footer>
-  </section>
+  </div>
 </template>
 
 <script>
