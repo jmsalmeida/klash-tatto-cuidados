@@ -1,0 +1,79 @@
+.layout
+  display: flex
+
+.layout-column
+  display: flex
+  flex-direction: column
+
+.reverse
+  flex-direction: row-reverse
+
+.page
+  color: #FFFFFF;
+  font-family: Lora;
+  font-style: normal;
+
+  width: 100vw
+  heigh: 100vh
+  padding: 0 4%
+  max-width: 1280px
+
+  background-color: #324BA7
+
+  .main-header
+    .title-header
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 38px;
+
+    .klash-logo-header
+      width: 47px;
+      height: 51px;
+
+  .main-content
+    padding: 20px 0
+
+    .step
+      padding-bottom: 50px
+      align-items: center
+      justify-content: center
+
+      .right-space
+        margin-right: 20px
+
+      .left-space
+        margin-left: 20px
+
+      .content-image
+        position: relative
+
+        img
+          z-index: 2
+          width: 130px
+          height: 130px
+          position: relative
+          border-radius: 172.5px
+
+        .image-circle
+          width: 130px;
+          height: 130px;
+          background: #FAAF30
+          position: absolute
+          border-radius: 172.5px
+          top: 10px;
+          right: 10px;
+          z-index: 1
+          box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25)
+          
+
+      .content
+        .title
+          font-weight: bold;
+          font-size: 22px;
+          line-height: 28px;
+
+        .description
+          font-family: Merriweather;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 20px;

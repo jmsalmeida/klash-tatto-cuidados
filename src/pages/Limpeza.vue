@@ -1,65 +1,60 @@
 <template>
-  <section class="container">
-    <header>
-      <h1 class="title">Limpeza</h1>
-      <img class="logo" src="~/assets/logo-preto.png">
+  <div class="page">
+    <header class="main-header">
+      <h2 class="title-header">Limpeza</h2>
+      <img class="klash-logo-header" src="~/assets/logo-preto.png">
     </header>
 
-    <section class="container">
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
+    <section class="main-content">
+      <article class="layout step">
+        <div class="content-image">
+          <img src="~/assets/piercing.png">
+          <span class="image-circle"></span>
         </div>
-        <div class="care-information">
-          <p>Usar somente soro fisiológico</p>
+
+        <div class="content left-space">
+          <h3 class="title">Algum Titulo</h3>
+          <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
         </div>
       </article>
 
-      <article class="care-content row-reverse">
-        <div class="care-image">
-          <img src="~/assets/piercings-step-1.png">
+      <article class="layout reverse step">
+        <div class="content-image">
+          <img src="~/assets/piercing.png">
+          <span class="image-circle"></span>
         </div>
-        <div class="care-information">
-          <p>Duas a três vezes por dia é suficiente</p>
+
+        <div class="content right-space">
+          <h3 class="title">Algum Titulo</h3>
+          <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
         </div>
       </article>
 
-      <article class="care-content">
-        <div class="care-image spacer">
-          <img src="~/assets/piercings-step-1.png">
+      <article class="layout step">
+        <div class="content-image">
+          <img src="~/assets/piercing.png">
+          <span class="image-circle"></span>
         </div>
-        <div class="care-information">
-          <p>Não usar nenhum outro produto</p>
+
+        <div class="content left-space">
+          <h3 class="title">Algum Titulo</h3>
+          <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
         </div>
       </article>
 
-      <article class="care-content row-reverse">
-        <div class="care-image">
-          <img src="~/assets/piercings-step-1.png">
+      <article class="layout reverse step">
+        <div class="content-image">
+          <img src="~/assets/piercing.png">
+          <span class="image-circle"></span>
         </div>
-        <div class="care-information">
-          <p>Mantenha a higiente pessoal e limpe tudo que vai estar em contato com seu piercing (roupas, travesseiros, capacete, etc)</p>
+
+        <div class="content right-space">
+          <h3 class="title">Algum Titulo</h3>
+          <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
         </div>
       </article>
     </section>
-
-    <footer>
-      <div class="page-counter">
-        <span>1 de 4</span>
-      </div>
-
-      <q-item
-      to="/nao-mexer"
-      exact
-      clickable
-      v-ripple>
-        <div class="page-control">
-          <q-icon name="east" size=20px />
-          <span>Próximo</span>
-        </div>
-      </q-item>
-    </footer>
-  </section>
+  </div>
 </template>
 
 <script>
