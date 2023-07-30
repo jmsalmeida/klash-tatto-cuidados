@@ -1,5 +1,7 @@
 <template>
   <section id="thanks" class="page">
+    <div class="bg-image"></div>
+
     <header class="tks-header">
       <img src="~/assets/logo.png">
     </header>
@@ -7,7 +9,8 @@
     <div class="tks-content">
       <h2>Agradecemos a sua visita</h2>
 
-      <p>Para melhorar o processo de cicatrização do seu novo piercing é muito importante seguir as instruções de cuidado.</p>
+      <p>Para melhorar o processo de cicatrização do seu novo piercing é muito importante seguir as instruções de cuidado.
+      </p>
 
       <small>Pedimos que <span class="bold">retorne entre 10 e 15 dias</span> para o acompanhamento</small>
 
@@ -54,25 +57,13 @@
       </div>
 
       <div class="actions">
-        <q-item
-        to="/"
-        exact
-        clickable
-        v-ripple>
+        <q-item to="/" exact clickable v-ripple>
           <div class="label">
             <img src="~/assets/icons/keyboard_backspace-white-18dp.svg" />
 
             <span>Voltar ao inicio</span>
           </div>
         </q-item>
-
-        <a href="https://drive.google.com/file/d/1o0-EgjvUWEm0ehvLF1qERcpChNnfnVx5/view?usp=sharing" download="proposed_file_name.pdf">
-          <div class="label">
-            <img src="~/assets/icons/cloud_download-white-18dp.svg" />
-
-            <span>Baixar instruções</span>
-          </div>
-        </a>
       </div>
 
       <span class="divisor"></span>
@@ -82,7 +73,9 @@
       <p class="footer-info">Agende seu próximo piercing em nosso <span class="bold">instagram</span></p>
 
       <div class="icons">
-        <a href="https://www.instagram.com/klashtattoosuzano/" target=_blank><img src="~/assets/icons/instagram-write.png"></a>
+        <a href="https://www.instagram.com/klashtattoosuzano/" target=_blank>
+          <img src="~/assets/icons/instagram-write.png">
+        </a>
       </div>
     </footer>
   </section>

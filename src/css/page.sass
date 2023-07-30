@@ -11,24 +11,15 @@
   .bg-image
     position: absolute
     z-index: -1
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity : 0.5;
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
 
     background-size: cover
     background-position: right
     background-repeat: no-repeat
-
-  .felipe-bg
-    background-image: url('../assets/bg/felipe-bg.jpeg')
-
-  .thaiane-bg
-    background-image: url('../assets/bg/thaiane-bg.jpeg')
-
-  .zeca-bg
-    background-image: url('../assets/bg/zeca-bg.jpeg')
+    background-image: url('../assets/bg/default-bg.jpg')
   // =====================
 
   .page-header
@@ -38,65 +29,59 @@
     padding: 20px
 
     .title-header
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 38px;
+      font-weight: bold
+      font-size: 2em
+      line-height: 38px
+      color: #c19b4e
 
     .klash-logo-header
-      width: 47px;
-      height: 51px;
+      width: 47px
+      height: 51px
 
   .main-content
     padding: 20px 4%
-    height: 80vh
+    max-height: 75vh
     max-width: 1280px
-    overflow: scroll
+    overflow-y: auto
 
     .content
       margin-right: 40px
 
-      .title
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 28px;
-
-      .description
-        font-family: Merriweather;
-
-        font-weight: 900;
-        font-size: 18px;
-        line-height: 200%;
-        margin-bottom: 40px
-
-  .page-footer
+  .page-footer-container
+    bottom: 0
     width: 100%
-    padding: 10px
+    position: fixed
+    padding-bottom: 40px
 
-    display: flex
-    align-items: flex-end
-    justify-content: space-between
+    .page-footer
+      width: 100%
+      padding: 0 20px
 
-    font-weight: 500
-    font-size: 0.8em
-
-    a
-      height: 50px
-
-    .page-counter
       display: flex
-      align-items: center
-      flex-direction: column
+      align-items: flex-end
+      justify-content: space-between
 
-      span
-        padding-top: 10px
-        letter-spacing: 1.5px
+      font-size: 1em
+      font-weight: 700
 
-    .page-control
-      display: flex
-      align-items: center
-      flex-direction: column
+      a
+        height: 50px
 
-      span
-        padding-top: 10px
-        letter-spacing: 2px
-        text-transform: lowercase
+      .page-counter
+        display: flex
+        align-items: center
+        flex-direction: column
+
+        span
+          padding-top: 10px
+          letter-spacing: 1.5px
+
+      .page-control
+        display: flex
+        align-items: center
+        flex-direction: column
+
+        span
+          padding-top: 10px
+          letter-spacing: 2px
+          text-transform: lowercase
