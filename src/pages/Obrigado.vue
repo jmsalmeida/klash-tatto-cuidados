@@ -47,7 +47,7 @@
           <div class="img-piercer zeca"></div>
 
           <div>
-            <a class="instagram-link" href="https://www.instagram.com/thatapiercer/" target=_blank>
+            <a class="instagram-link" href="https://www.instagram.com/zeka_campos_klash/" target=_blank>
               <img src="~/assets/icons/instagram.png">
               <span>Zeca Campos</span>
             </a>
